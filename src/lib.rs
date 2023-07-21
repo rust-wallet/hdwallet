@@ -1,0 +1,21 @@
+extern crate core;
+extern crate ed25519_dalek;
+extern crate hmac;
+// extern crate k256;
+extern crate lazy_static_include;
+extern crate rand;
+extern crate regex;
+extern crate ripemd;
+extern crate rlp;
+extern crate serde;
+#[macro_use]
+extern crate serde_derive;
+extern crate serde_json;
+extern crate sha2;
+// extern crate sha3;
+extern crate tiny_keccak;
+pub mod bip32;
+pub mod bip39;
+pub mod hdwallet;
+pub mod utils;
+pub mod wordslist;
